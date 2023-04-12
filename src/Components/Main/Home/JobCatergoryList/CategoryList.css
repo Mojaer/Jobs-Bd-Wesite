@@ -1,0 +1,13 @@
+.categoryList h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    color: #1A1919;
+    margin-bottom: .7rem;
+}
+
+.categoryList p {
+    color: #757575;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 5rem;
+}

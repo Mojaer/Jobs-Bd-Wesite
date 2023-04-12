@@ -1,0 +1,28 @@
+{
+    "job_categories": [
+        {
+            "id": 1,
+            "icon": "./Icons/accounts 1.png",
+            "name": "Technology",
+            "available_jobs": "2500 jobs available"
+        },
+        {
+            "id": 2,
+            "icon": "./Icons/business 1.png",
+            "name": "Business",
+            "available_jobs": "1500 jobs available"
+        },
+        {
+            "id": 3,
+            "icon": "./Icons/chip 1.png",
+            "name": "Healthcare",
+            "available_jobs": "2000 jobs available"
+        },
+        {
+            "id": 4,
+            "icon": "./Icons/social-media 1.png",
+            "name": "Education",
+            "available_jobs": "1000 jobs available"
+        }
+    ]
+}

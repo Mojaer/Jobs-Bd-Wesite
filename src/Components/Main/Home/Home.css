@@ -1,16 +1,8 @@
-.home {
-    margin-bottom: 1.2rem;
+.title {
+    padding: 7rem 0;
 }
 
-.articles {
-    width: 90%
-}
+.categoryList {
+    padding: 3rem 0;
 
-.articles h1 {
-    font-size: 5rem;
-    font-weight: 700;
-}
-
-.articles h1 span {
-    color: #9873FF;
 }
