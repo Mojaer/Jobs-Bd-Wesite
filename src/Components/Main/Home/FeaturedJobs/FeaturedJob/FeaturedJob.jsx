@@ -1,9 +1,10 @@
 import { Button } from 'bootstrap';
 import React from 'react';
 import './FeaturedJob.css'
+import { Link } from 'react-router-dom';
 
 const FeaturedJob = ({ featuredJob }) => {
-    const { companyLogo, companyName, jobTitle, location, salary, remoteOrOnsite, fulltimeOrPartTime } = featuredJob
+    let { id, companyLogo, companyName, jobTitle, location, salary, remoteOrOnsite, fulltimeOrPartTime } = featuredJob
     return (
         <>
             <div className=" featureJob ">
@@ -25,7 +26,7 @@ const FeaturedJob = ({ featuredJob }) => {
                     </div>
 
                 </div>
-                <button className='btn btn-primary'>View Details</button>
+                <Link className=' btn btn-primary' to={`/applied_jobs/${id}`}>View details</Link>
 
 
             </div>

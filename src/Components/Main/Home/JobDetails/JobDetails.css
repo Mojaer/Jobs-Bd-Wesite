@@ -1,0 +1,30 @@
+.jobDetails section {
+    padding: 3rem 5rem;
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+
+}
+
+.details {
+    padding: 3rem 5rem;
+}
+
+
+
+.jobDetails p {
+    color: #757575;
+    font-size: 1rem;
+}
+
+.jobDetails h5 {
+    color: #757575;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.jobDetails h4 {
+    color: #1A1919;
+    font-weight: 700;
+    font-size: 1.5rem;
+}

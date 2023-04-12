@@ -29,6 +29,7 @@ const FeaturedJobs = () => {
                 }
 
             </div>
+            <button className='btn btn-primary mb-5'>See all jobs</button>
         </div>
     );
 };

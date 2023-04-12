@@ -11,6 +11,7 @@ import Header from './Components/Header/Header';
 import Home from './Components/Main/Home/Home';
 import Statistics from './Components/Main/Statistics/Statistics';
 import Blogs from './Components/Main/Blogs/Blogs';
+import JobDetails from './Components/Main/Home/JobDetails/JobDetails';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,14 @@ const router = createBrowserRouter([
       {
         path: "/applied_jobs",
         element: <Home></Home>,
+      },
+      {
+        path: "/applied_jobs/:id",
+        element: <JobDetails></JobDetails>,
+        loader: ({ params }) => {
+          return params;
+        },
+
       },
       {
         path: "/statistics",
