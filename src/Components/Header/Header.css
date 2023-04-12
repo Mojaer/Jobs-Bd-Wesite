@@ -1,0 +1,15 @@
+.header {
+    margin-bottom: 2.4rem;
+}
+
+.header div a {
+    text-decoration: none;
+    margin-left: .5rem;
+    color: #757575;
+    font-size: 1rem;
+}
+
+.jobBD {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
