@@ -1,0 +1,26 @@
+.featureJob {
+    padding: 2rem 2rem;
+    text-align: start;
+}
+
+.featureJob>* {
+    margin-bottom: 1rem;
+}
+
+.featureJob h4 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #474747;
+}
+
+.featureJob h5 {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #757575;
+}
+
+.salary_location {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #757575;
+}
