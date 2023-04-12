@@ -1,0 +1,10 @@
+.footer {
+    background: #1A1919;
+    padding: 6rem 5rem;
+    color: #FFFFFF;
+}
+
+.footer h1,
+h3 {
+    margin-top: 2rem;
+}

@@ -33,6 +33,10 @@ const router = createBrowserRouter([
         path: "/blogs",
         element: <Blogs></Blogs>,
       },
+      {
+        path: "*",
+        element: <div style={{ color: 'red' }}><h1>404 not found</h1><h4>Please enter a valid request</h4></div>,
+      },
     ],
   },
 ]);

@@ -1,0 +1,110 @@
+[
+    {
+        "id": "job001",
+        "companyLogo": "/public/Logo/pinterest.png",
+        "jobTitle": "Account Manager",
+        "companyName": "ABC Corporation",
+        "remoteOrOnsite": "Onsite",
+        "location": "Chicago, IL",
+        "fulltimeOrPartTime": "Full-time",
+        "salary": "$60,000 - $80,000",
+        "jobDescription": "We are seeking an account manager to manage our client relationships and help grow our business. The ideal candidate should have excellent communication and interpersonal skills, as well as a strong understanding of sales and marketing.",
+        "jobResponsibility": "Manage client accounts and develop new business opportunities.",
+        "educationalRequirements": "Bachelor's degree in Business Administration, Marketing, or a related field",
+        "experiences": "2+ years of experience in account management or sales",
+        "contactInformation": {
+            "phone": "555-1234",
+            "email": "jobs@example.com"
+        }
+    },
+    {
+        "id": "job002",
+        "companyLogo": "/public/Logo/facebook.jpg",
+        "jobTitle": "Graphic Designer",
+        "companyName": "XYZ Creative Agency",
+        "remoteOrOnsite": "Remote",
+        "location": "Miami, FL",
+        "fulltimeOrPartTime": "Full-time",
+        "salary": "$50,000 - $70,000",
+        "jobDescription": "We are looking for a talented graphic designer to join our team. The ideal candidate should have a strong portfolio showcasing their design skills, as well as experience with design software such as Adobe Creative Suite.",
+        "jobResponsibility": "Design marketing materials, websites, and other visual content for our clients.",
+        "educationalRequirements": "Bachelor's degree in Graphic Design or a related field",
+        "experiences": "2+ years of experience in graphic design",
+        "contactInformation": {
+            "phone": "555-5678",
+            "email": "jobs@example.com"
+        }
+    },
+    {
+        "id": "job003",
+        "companyLogo": "./Logo/google-1-1 1.png",
+        "jobTitle": "Software Developer",
+        "companyName": "123 Software Company",
+        "remoteOrOnsite": "Onsite",
+        "location": "Austin, TX",
+        "fulltimeOrPartTime": "Full-time",
+        "salary": "$80,000 - $100,000",
+        "jobDescription": "We are seeking a software developer to join our team. The ideal candidate should have experience with software development languages such as Java or Python, as well as knowledge of database management.",
+        "jobResponsibility": "Develop and maintain software applications for our clients.",
+        "educationalRequirements": "Bachelor's degree in Computer Science or a related field",
+        "experiences": "2+ years of experience in software development",
+        "contactInformation": {
+            "phone": "555-9012",
+            "email": "jobs@example.com"
+        }
+    },
+    {
+        "id": "job004",
+        "companyLogo": "/public/Logo/netflix-4 1.png",
+        "jobTitle": "Web Developer",
+        "companyName": "ABC Software",
+        "remoteOrOnsite": "Onsite",
+        "location": "San Francisco, CA",
+        "fulltimeOrPartTime": "Full-time",
+        "salary": "$80,000 - $100,000",
+        "jobDescription": "We are seeking a talented web developer to join our team and help us build cutting-edge web applications. The ideal candidate should have a strong background in web development and experience working with JavaScript frameworks like React or Angular.",
+        "jobResponsibility": "Design, develop, and maintain web applications using React and other JavaScript frameworks.",
+        "educationalRequirements": "Bachelor's degree in Computer Science or a related field",
+        "experiences": "3+ years of experience in web development",
+        "contactInformation": {
+            "phone": "555-1234",
+            "email": "jobs@example.com"
+        }
+    },
+    {
+        "id": "job005",
+        "companyLogo": "/public/Logo/google-1-1 1-1.png",
+        "jobTitle": "Content Writer",
+        "companyName": "GHI Publishing",
+        "remoteOrOnsite": "Remote",
+        "location": "New York, NY",
+        "fulltimeOrPartTime": "Part-time",
+        "salary": "$20 - $25 per hour",
+        "jobDescription": "We are seeking a skilled content writer to help us create engaging and informative content for our website and publications. The ideal candidate should have a strong portfolio of writing samples and experience in SEO.",
+        "jobResponsibility": "Write and edit content for our website and publications.",
+        "educationalRequirements": "Bachelor's degree in English, Journalism, or a related field",
+        "experiences": "2+ years of experience in content writing",
+        "contactInformation": {
+            "phone": "555-3456",
+            "email": "jobs@example.com"
+        }
+    },
+    {
+        "id": "job006",
+        "companyLogo": "/public/Logo/tesla-9 1.png",
+        "jobTitle": "Customer Service Representative",
+        "companyName": "LMN Corporation",
+        "remoteOrOnsite": "Onsite",
+        "location": "Seattle, WA",
+        "fulltimeOrPartTime": "Full-time",
+        "salary": "$35,000 - $40,000",
+        "jobDescription": "We are seeking a customer service representative to handle inquiries and resolve issues for our customers. The ideal candidate should have excellent communication skills and the ability to handle difficult customers.",
+        "jobResponsibility": "Handle customer inquiries and complaints, and process orders and returns.",
+        "educationalRequirements": "High school diploma or equivalent",
+        "experiences": "1+ years of experience in customer service",
+        "contactInformation": {
+            "phone": "555-6789",
+            "email": "jobs@example.com"
+        }
+    }
+]
