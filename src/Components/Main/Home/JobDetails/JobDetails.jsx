@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import './JobDetails.css'
+import { addToDb } from '../../../../../public/fakedb';
 
 const JobDetails = () => {
     const jobID = useLoaderData()
@@ -25,17 +26,8 @@ const JobDetails = () => {
 
 
     let JobDetails = featuredJob.find(job => job.id === jobID.id)
-    console.log(JobDetails ? JobDetails.contactInformation : 'no response')
 
-
-
-    // let { id, companyLogo, companyName, jobTitle, location, salary, remoteOrOnsite, fulltimeOrPartTime, jobDescription, jobResponsibility, educationalRequirements, experiences, contactInformation } = JobDetails2
-
-
-
-
-
-
+    // let { id, companyLogo, companyName, jobTitle, location, salary, remoteOrOnsite, fulltimeOrPartTime, jobDescription, jobResponsibility, educationalRequirements, experiences, contactInformation } = JobDetails
 
     return (
         <div className='jobDetails'>
@@ -66,7 +58,7 @@ const JobDetails = () => {
                         <h5><img src='/public/Icons/Frame-3.png' alt="dollar" /> <b>Email: </b>{JobDetails ? JobDetails.contactInformation.email : 'no response'} </h5>
                         <h5 className='mb-5'><img src='/public/Icons/Frame-4.png' alt="dollar" /> <b>Location: </b>{JobDetails ? JobDetails.location : 'no response'} </h5>
 
-                        <button className='btn btn-primary w-100'>Apply Now</button>
+                        <button onClick={() => { addToDb(jobID.id) }} className='btn btn-primary w-100'>Apply Now</button>
                     </div>
                 </div>
             </div>
