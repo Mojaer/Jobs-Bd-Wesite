@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -12,6 +11,16 @@ import Home from './Components/Main/Home/Home';
 import Statistics from './Components/Main/Statistics/Statistics';
 import Blogs from './Components/Main/Blogs/Blogs';
 import JobDetails from './Components/Main/Home/JobDetails/JobDetails';
+import AppliedJobs from './Components/Main/Applied_Jobs/AppliedJobs';
+
+
+const dataFetch = async () => {
+
+  const response = await fetch('/FeaturedJobs.json');
+  const data = await response.json();
+  return data
+
+}
 
 const router = createBrowserRouter([
   {
@@ -24,7 +33,8 @@ const router = createBrowserRouter([
       },
       {
         path: "/applied_jobs",
-        element: <Home></Home>,
+        element: <AppliedJobs></AppliedJobs>,
+        loader: dataFetch
       },
       {
         path: "/:id",

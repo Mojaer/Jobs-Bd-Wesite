@@ -8,7 +8,7 @@ const CategoryList = () => {
 
     useEffect(() => {
         const dataFetch = async () => {
-            const response = await fetch('/public/Category_list.json')
+            const response = await fetch('/Category_list.json')
             const data = await response.json()
             setCategories(data.job_categories)
         }
