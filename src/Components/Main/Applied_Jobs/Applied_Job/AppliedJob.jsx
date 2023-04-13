@@ -35,7 +35,7 @@ const AppliedJob = ({ appliedJob }) => {
                 </article>
             </div>
             <div>
-                <Link className=' btn btn-primary' to={`/${id}`}>View details</Link>
+                <Link className=' btn btn-primary' to={`/applied_jobs/${id}`}>View details</Link>
             </div>
 
 

@@ -37,12 +37,11 @@ const router = createBrowserRouter([
         loader: dataFetch
       },
       {
-        path: "/:id",
+        path: "/applied_jobs/:id",
         element: <JobDetails></JobDetails>,
         loader: ({ params }) => {
           return params;
         },
-
       },
       {
         path: "/statistics",
@@ -53,8 +52,8 @@ const router = createBrowserRouter([
         element: <Blogs></Blogs>,
       },
       {
-        path: "*",
-        element: <div style={{ color: 'red' }}><h1>404 not found</h1><h4>Please enter a valid request</h4></div>,
+        path: "/*",
+        element: <div style={{ color: 'red' }} className='text-center fw-bold'><h1>404 not found</h1><h4>Please enter a valid request</h4></div>,
       },
     ],
   },

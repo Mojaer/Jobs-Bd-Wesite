@@ -17,11 +17,11 @@ const FeaturedJob = ({ featuredJob }) => {
                 </div>
                 <div className='salary_location d-flex align-items-center justify-content-start'>
                     <div >
-                        <img className="img-fluid" src='/public/Icons/Location Icon.png' alt="location" />
+                        <img className="img-fluid" src='/Icons/Location Icon.png' alt="location" />
                         {location}
                     </div>
                     <div className='ms-3'>
-                        <img className="img-fluid" src="/public/Icons/Frame.png" alt="" />
+                        <img className="img-fluid" src="/Icons/Frame.png" alt="frame" />
                         {salary}
                     </div>
 

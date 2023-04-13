@@ -7,7 +7,7 @@ const Footer = () => {
             <div className='footer d-block text-center text-md-start d-md-flex justify-content-between '>
                 <div><h1>CareerHub</h1>
                     <p>There are many variations of passages of Lorem Ipsum ,<br /> but the majority have suffered alteration in some form.</p>
-                    <img src="/public/Icons/Group 9969.png" alt="" />
+                    <img src="/Icons/Group 9969.png" alt="" />
                 </div>
                 <div>
                     <h3>Company</h3>
