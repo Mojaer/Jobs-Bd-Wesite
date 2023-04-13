@@ -12,7 +12,7 @@ const Header = () => {
                     <Link to="/">Home</Link>
                     <Link to="/statistics">Statistics</Link>
                     <Link to="/applied_jobs">Applied Jobs</Link>
-                    <Link to="/blogs">Blogs</Link>
+                    <Link to="/blogs">Blog</Link>
                 </div>
 
                 <div><Button variant="primary" className='btn btn-primary px-3 py-2'>Start Applying</Button></div>

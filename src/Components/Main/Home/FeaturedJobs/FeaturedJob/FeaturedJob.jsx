@@ -26,7 +26,7 @@ const FeaturedJob = ({ featuredJob }) => {
                     </div>
 
                 </div>
-                <Link className=' btn btn-primary' to={`/${id}`}>View details</Link>
+                <Link className=' btn btn-primary' to={`/job/${id}`}>View details</Link>
 
 
             </div>

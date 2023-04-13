@@ -37,7 +37,7 @@ const router = createBrowserRouter([
         loader: dataFetch
       },
       {
-        path: "/applied_jobs/:id",
+        path: "/job/:id",
         element: <JobDetails></JobDetails>,
         loader: ({ params }) => {
           return params;
