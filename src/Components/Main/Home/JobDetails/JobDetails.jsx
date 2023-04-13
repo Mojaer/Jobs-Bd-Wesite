@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import './JobDetails.css'
 import { addToDb } from '../../../../../public/fakedb';
+import Footer from '../../../Footer/Footer';
 
 const JobDetails = () => {
     const jobID = useLoaderData()
@@ -62,7 +63,7 @@ const JobDetails = () => {
                 </div>
             </div>
 
-
+            <Footer></Footer>
         </div>
     );
 };

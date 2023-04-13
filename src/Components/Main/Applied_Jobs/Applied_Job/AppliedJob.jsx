@@ -1,9 +1,11 @@
 import React from 'react';
 import './AppliedJob.css'
+import { Link } from 'react-router-dom';
 
 const AppliedJob = ({ appliedJob }) => {
 
     let { id, companyLogo, companyName, jobTitle, location, salary, remoteOrOnsite, fulltimeOrPartTime } = appliedJob
+    console.log(appliedJob)
 
 
     return (
@@ -33,7 +35,9 @@ const AppliedJob = ({ appliedJob }) => {
                     </div>
                 </article>
             </div>
-            <div><button className='btn btn-primary'>View Details</button> </div>
+            <div>
+                <Link className=' btn btn-primary' to={`/${id}`}>View details</Link>
+            </div>
 
 
 

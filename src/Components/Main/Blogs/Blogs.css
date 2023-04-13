@@ -1,0 +1,13 @@
+.blogs {
+    padding: 0rem 5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.blogs h2 {
+    color: darkgreen
+}
+
+.blogs h4 {
+    color: gray;
+}
