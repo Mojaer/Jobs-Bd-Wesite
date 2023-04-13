@@ -1,3 +1,23 @@
 .appliedJob {
-    padding: 5rem
+    padding: 2rem 3rem;
+    margin-top: 5rem;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    margin: 6rem 5rem;
+}
+
+.companyLogo {
+    background: #F4F4F4;
+    border-radius: 8px;
+    padding: 55px 15px;
+}
+
+.appliedJob article {
+    margin-top: auto;
+    margin-left: 2rem;
+}
+
+.appliedJob article>* {
+    margin-bottom: .7rem;
+
 }

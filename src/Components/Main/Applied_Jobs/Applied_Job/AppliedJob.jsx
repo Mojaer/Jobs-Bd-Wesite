@@ -7,12 +7,36 @@ const AppliedJob = ({ appliedJob }) => {
 
 
     return (
-        <div className='appliedJob'>
-            <section className='d-flex justify-content-between'>
-                <img src="/All Images/Vector.png" alt="" />
-                <h1 >Applied Jobs</h1>
-                <img src="/All Images/Vector-1.png" alt="" />
-            </section>
+        <div className='appliedJob d-flex align-items-center justify-content-between'>
+            <div className='d-flex align-items-center justify-content-start'>
+                <div className='d-flex align-items-center justify-content-start companyLogo'>
+                    <img src={companyLogo} alt="" />
+                </div>
+
+                <article>
+                    <h4>{jobTitle}</h4>
+                    <h5>{companyName}</h5>
+                    <div>
+                        <button className='btn btn-outline-primary '>{remoteOrOnsite}</button>
+                        <button className='btn btn-outline-primary ms-2'>{fulltimeOrPartTime}</button>
+                    </div>
+                    <div className='salary_location d-flex align-items-center justify-content-start'>
+                        <div >
+                            <img className="img-fluid" src='/public/Icons/Location Icon.png' alt="location" />
+                            {location}
+                        </div>
+                        <div className='ms-3'>
+                            <img className="img-fluid" src="/public/Icons/Frame.png" alt="" />
+                            {salary}
+                        </div>
+
+                    </div>
+                </article>
+            </div>
+            <div><button className='btn btn-primary'>View Details</button> </div>
+
+
+
 
         </div>
     );

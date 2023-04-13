@@ -31,9 +31,9 @@ const JobDetails = () => {
     return (
         <div className='jobDetails'>
             <section className='d-flex justify-content-between'>
-                <img src="/All Images/Vector.png" alt="" />
+                <img className='img-fluid' src="/All Images/Vector.png" alt="" />
                 <h1 >Job Details</h1>
-                <img src="/All Images/Vector-1.png" alt="" />
+                <img className='img-fluid' src="/All Images/Vector-1.png" alt="" />
             </section>
             <div className='details d-md-flex text-center text-md-start'>
                 <div className='w-75 mb-5 mb-md-auto'>
