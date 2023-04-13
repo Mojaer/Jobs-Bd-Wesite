@@ -1,0 +1,12 @@
+.statistics {
+    padding: 0rem 5rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.item {
+    width: 40%;
+}
