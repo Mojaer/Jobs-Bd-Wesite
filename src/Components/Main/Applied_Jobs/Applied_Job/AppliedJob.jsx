@@ -5,13 +5,12 @@ import { Link } from 'react-router-dom';
 const AppliedJob = ({ appliedJob }) => {
 
     let { id, companyLogo, companyName, jobTitle, location, salary, remoteOrOnsite, fulltimeOrPartTime } = appliedJob
-    console.log(appliedJob)
 
 
     return (
-        <div className='appliedJob d-flex align-items-center justify-content-between'>
-            <div className='d-flex align-items-center justify-content-start'>
-                <div className='d-flex align-items-center justify-content-start companyLogo'>
+        <div className='appliedJob d-md-flex align-items-center justify-content-between'>
+            <div className='d-md-flex align-items-center justify-content-start'>
+                <div className='d-md-flex align-items-center justify-content-start companyLogo'>
                     <img src={companyLogo} alt="" />
                 </div>
 
@@ -24,11 +23,11 @@ const AppliedJob = ({ appliedJob }) => {
                     </div>
                     <div className='salary_location d-flex align-items-center justify-content-start'>
                         <div >
-                            <img className="img-fluid" src='/public/Icons/Location Icon.png' alt="location" />
+                            <img className="img-fluid" src='/Icons/Location Icon.png' alt="location" />
                             {location}
                         </div>
                         <div className='ms-3'>
-                            <img className="img-fluid" src="/public/Icons/Frame.png" alt="" />
+                            <img className="img-fluid" src="/Icons/Frame.png" alt="" />
                             {salary}
                         </div>
 

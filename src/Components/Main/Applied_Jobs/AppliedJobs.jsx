@@ -13,15 +13,29 @@ const AppliedJobs = () => {
 
     useEffect(() => {
         const response = getAppliedJob()
-        setAppliedJobId(response)
+        setAppliedJobId(Object.keys(response))
     }, [])
-
 
 
     const appliedJob = []
 
-    for (const jobId in appliedJobId) {
+    for (const jobId of appliedJobId) {
         appliedJob.push(allJobs.filter(jobs => jobs.id === jobId))
+    }
+
+    const remoteJobs = () => {
+        let newJobIds = []
+        const filteredJobs = appliedJob.filter(jobs => jobs[0].remoteOrOnsite === "Remote")
+        filteredJobs.map(job => newJobIds.push(job[0].id))
+        setAppliedJobId(newJobIds)
+
+    }
+    const onSiteJobs = () => {
+        let newJobIds = []
+        const filteredJobs = appliedJob.filter(jobs => jobs[0].remoteOrOnsite === "Onsite")
+        filteredJobs.map(job => newJobIds.push(job[0].id))
+        setAppliedJobId(newJobIds)
+
     }
 
     return (
@@ -33,10 +47,16 @@ const AppliedJobs = () => {
                     <img src="/All Images/Vector-1.png" alt="" />
                 </section>
                 <div className='section'>
-                    {/* <div>filter</div> */}
-                    {
-                        appliedJob.map(job => <AppliedJob appliedJob={job[0]} key={job[0].id}></AppliedJob>)
-                    }
+                    <div className='filter d-flex justify-content-end '>
+                        <button onClick={() => remoteJobs()} className='btn btn-outline-primary fw-bolder'>remote jobs</button>
+                        <button onClick={() => onSiteJobs()} className='btn btn-outline-primary ms-2 fw-bolder'>on-site jobs</button>
+                    </div>
+                    <div>
+                        {
+                            appliedJob.map(job => <AppliedJob appliedJob={job[0]} key={job[0].id}></AppliedJob>)
+                        }
+                    </div>
+
                 </div>
             </div>
             <Footer></Footer>

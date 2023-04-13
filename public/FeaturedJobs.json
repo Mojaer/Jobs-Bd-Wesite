@@ -1,7 +1,7 @@
 [
     {
         "id": "job001",
-        "companyLogo": "/public/Logo/pinterest.png",
+        "companyLogo": "/Logo/pinterest.png",
         "jobTitle": "Account Manager",
         "companyName": "ABC Corporation",
         "remoteOrOnsite": "Onsite",
@@ -19,7 +19,7 @@
     },
     {
         "id": "job002",
-        "companyLogo": "/public/Logo/facebook.jpg",
+        "companyLogo": "/Logo/facebook.jpg",
         "jobTitle": "Graphic Designer",
         "companyName": "XYZ Creative Agency",
         "remoteOrOnsite": "Remote",
@@ -37,7 +37,7 @@
     },
     {
         "id": "job003",
-        "companyLogo": "./Logo/google-1-1 1.png",
+        "companyLogo": "/Logo/google-1-1 1.png",
         "jobTitle": "Software Developer",
         "companyName": "123 Software Company",
         "remoteOrOnsite": "Onsite",
@@ -55,7 +55,7 @@
     },
     {
         "id": "job004",
-        "companyLogo": "/public/Logo/netflix-4 1.png",
+        "companyLogo": "/Logo/netflix-4 1.png",
         "jobTitle": "Web Developer",
         "companyName": "ABC Software",
         "remoteOrOnsite": "Onsite",
@@ -73,7 +73,7 @@
     },
     {
         "id": "job005",
-        "companyLogo": "/public/Logo/google-1-1 1-1.png",
+        "companyLogo": "/Logo/google-1-1 1-1.png",
         "jobTitle": "Content Writer",
         "companyName": "GHI Publishing",
         "remoteOrOnsite": "Remote",
@@ -91,7 +91,7 @@
     },
     {
         "id": "job006",
-        "companyLogo": "/public/Logo/tesla-9 1.png",
+        "companyLogo": "/Logo/tesla-9 1.png",
         "jobTitle": "Customer Service Representative",
         "companyName": "LMN Corporation",
         "remoteOrOnsite": "Onsite",
